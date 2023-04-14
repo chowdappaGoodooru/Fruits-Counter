@@ -1,0 +1,73 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background-color: #ffd569;
+  height: 100vh;
+  background-size: cover;
+  padding: 40px;
+}
+
+.btm-container {
+  background-color: #ffffff;
+  width: 100%;
+  height: 90vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.image {
+  width: 300px;
+}
+
+.btm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fruits-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.fruit-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+}
+.click-btn {
+  align-self: center;
+  padding: 10px;
+  background-color: #007bff;
+  border-style: none;
+  border-radius: 10px;
+  color: #ffffff;
+  width: 100px;
+}
+
+.heading {
+  color: #000000;
+  font-size: 46px;
+}
+
+span {
+  color: #ffd569;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+  .fruits-Container {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
